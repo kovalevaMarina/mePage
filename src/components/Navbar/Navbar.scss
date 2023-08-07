@@ -1,0 +1,10 @@
+@import "../../styles/index";
+
+.navbar-toggler {
+  border: none;
+
+  &:focus {
+    box-shadow: none;
+    border: 1px solid $blue;
+  }
+}

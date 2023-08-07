@@ -1,0 +1,23 @@
+$blue: #3a83f6;
+$blue-secondary: #8fb4f1;
+$grey400: #8b929a;
+$grey700: #3e4957;
+$white: #ffffff;
+
+$colors: (
+  "blue": #3a83f6,
+  "blue-secondary": #8fb4f1,
+  "grey400": #8b929a,
+  "grey700": #3e4957,
+  "white": #ffffff,
+);
+
+@each $name, $color in $colors {
+  .color-#{$name} {
+    color: $color;
+  }
+
+  .bg-#{$name} {
+    background-color: $color;
+  }
+}

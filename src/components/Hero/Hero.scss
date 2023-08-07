@@ -1,0 +1,14 @@
+@import "../../styles/index";
+
+.hero {
+  &-text {
+    max-width: 281px;
+  }
+}
+
+.btn-primary {
+  display: block;
+  width: 281px;
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+}

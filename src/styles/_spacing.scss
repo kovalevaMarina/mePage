@@ -1,0 +1,62 @@
+//spacing
+$spacer-base: 30px;
+
+$spacer-xxs: 0.25 * $spacer-base; //7.5
+$spacer-xs: 0.5 * $spacer-base; //15
+$spacer-s: 0.75 * $spacer-base; //22.5
+$spacer-m: $spacer-base; //30
+$spacer-l: 1.5 * $spacer-base; //45
+$spacer-xl: 2 * $spacer-base; //60
+$spacer-xxl: 2.25 * $spacer-base; //67.5
+
+// all spacing
+$spacers: (
+  "0": 0,
+  xxs: $spacer-xxs,
+  xs: $spacer-xs,
+  s: $spacer-s,
+  m: $spacer-m,
+  l: $spacer-l,
+  xl: $spacer-xl,
+  xxl: $spacer-xxl,
+);
+
+// all types
+$types: (
+  "m": "margin",
+  "p": "padding",
+);
+
+// all sides
+$sides: (
+  "": "",
+  t: "-top",
+  r: "-right",
+  b: "-bottom",
+  l: "-left",
+);
+
+@each $key-spacer, $spacer in $spacers {
+  @each $key-type, $type in $types {
+    @each $key-side, $side in $sides {
+      .#{$key-type}#{$key-side}-#{$key-spacer} {
+        #{$type}#{$side}: $spacer;
+      }
+    }
+    // for horizontal
+    .#{$key-type}x-#{$key-spacer} {
+      #{$type}-left: $spacer;
+      #{$type}-right: $spacer;
+    }
+
+    // for vertical
+    .#{$key-type}y-#{$key-spacer} {
+      #{$type}-bottom: $spacer;
+      #{$type}-top: $spacer;
+    }
+  }
+
+  .gap-#{$key-spacer} {
+    gap: $spacer;
+  }
+}

@@ -4,8 +4,10 @@ $ln-base: 24px;
 $ln-xxs: 11px;
 $ln-xs: 12px;
 $ln-s: 14px;
+$ln-2s: 21px;
 $ln-m: $ln-base;
-$ln-l: 22px;
+$ln-l: 28px;
+$ln-2l: 30px;
 $ln-xl: 32px;
 $ln-xxl: 48px;
 
@@ -13,8 +15,10 @@ $line-heights: (
   xss: $ln-xxs,
   xs: $ln-xs,
   s: $ln-s,
+  2s: $ln-2s,
   m: $ln-m,
   l: $ln-l,
+  2l: $ln-2l,
   xl: $ln-xl,
   xxl: $ln-xxl,
 );

@@ -1,7 +1,28 @@
 body {
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.fm-arial {
-  font-family: Arial, Helvetica, sans-serif;
+.fm-roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+.title {
+  &-h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: $fs-l;
+    font-weight: 700;
+    line-height: $ln-l;
+    color: $grey700;
+    text-align: center;
+  }
+  &-h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: $fs-m;
+    font-weight: 700;
+    line-height: $ln-m;
+    letter-spacing: 7px;
+    color: $blue-secondary;
+    text-align: center;
+    text-transform: uppercase;
+  }
 }

@@ -5,7 +5,8 @@ $fs-xxs: 11px;
 $fs-xs: 12px;
 $fs-s: 14px;
 $fs-m: $fs-base;
-$fs-l: 22px;
+$fs-2m: 20px;
+$fs-l: 24px;
 $fs-xl: 32px;
 $fs-xxl: 48px;
 
@@ -15,6 +16,7 @@ $font-sizes: (
   xs: $fs-xs,
   s: $fs-s,
   m: $fs-m,
+  2m: Sfm-2m,
   l: $fs-l,
   xl: $fs-xl,
   xxl: $fs-xxl,

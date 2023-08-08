@@ -2,7 +2,7 @@ import "./Competitors.scss";
 import circleCheck from "../../assets/icons/check-circle.svg";
 import circleX from "../../assets/icons/x-circle.svg";
 import Logo from "../Logo/Logo";
-import ButtonPrimary from "../Button/Button";
+import ButtonPress from "../Button/Button";
 
 import Container from "react-bootstrap/Container";
 import Card from "react-bootstrap/Card";
@@ -124,7 +124,7 @@ function Competitors() {
           ability to share project for view or edit, ability to edit HTML and
           CSS code directly and its 24/7 live chat and email customer support.
         </p>
-        <ButtonPrimary />
+        <ButtonPress variantClass={"primary"} />
       </Container>
     </section>
   );

@@ -3,6 +3,7 @@ import Competitors from "../../components/Competitors/Competitors";
 import Features from "../../components/Features/Features";
 import Plans from "../../components/Plans/Plans";
 import Faq from "../../components/Faq/Faq";
+import ReadyToTry from "../../components/ReadyToTry/ReadyToTry";
 
 function Home() {
   return (
@@ -12,6 +13,7 @@ function Home() {
       <Features />
       <Plans />
       <Faq />
+      <ReadyToTry />
     </>
   );
 }

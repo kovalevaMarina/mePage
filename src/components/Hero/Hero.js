@@ -1,7 +1,7 @@
 import "./Hero.scss";
 import mainImgMob from "../../assets/images/main-img-mob.png";
 import line from "../../assets/images/line.svg";
-import ButtonPrimary from "../Button/Button";
+import ButtonPress from "../Button/Button";
 import Container from "react-bootstrap/Container";
 
 function Hero() {
@@ -19,7 +19,7 @@ function Hero() {
           Build a website that fits your needs, not the other way around with
           our flexible website constructor ME-Page!
         </p>
-        <ButtonPrimary />
+        <ButtonPress variant={"secondary"} />
       </Container>
     </section>
   );

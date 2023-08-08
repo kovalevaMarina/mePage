@@ -7,7 +7,8 @@ $spacer-s: 0.8 * $spacer-base; //24
 $spacer-m: $spacer-base; //30
 $spacer-l: 1.5 * $spacer-base; //45
 $spacer-xl: 2 * $spacer-base; //60
-$spacer-xxl: 2.25 * $spacer-base; //67.5
+$spacer-xxl: 2.25 * $spacer-base; // 67.5
+$spacer-2xxl: 2.85 * $spacer-base; //85.8
 
 // all spacing
 $spacers: (
@@ -19,6 +20,7 @@ $spacers: (
   l: $spacer-l,
   xl: $spacer-xl,
   xxl: $spacer-xxl,
+  2xxl: $spacer-2xxl,
 );
 
 // all types

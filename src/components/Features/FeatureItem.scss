@@ -1,0 +1,11 @@
+.features-item {
+  &_img {
+    max-width: 601px;
+    max-height: 474px;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}

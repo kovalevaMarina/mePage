@@ -1,10 +1,12 @@
 $blue: #3a83f6;
 $blue-secondary: #8fb4f1;
 $blue-shadow: #c0d9ff;
+$blue-select: #2c6ed5;
 $grey400: #8b929a;
 $grey700: #3e4957;
 $white: #ffffff;
 $white-border: #dde0e4;
+$grey-border: #e2e9fc;
 
 $colors: (
   "blue": #3a83f6,
@@ -12,6 +14,8 @@ $colors: (
   "grey400": #8b929a,
   "grey700": #3e4957,
   "white": #ffffff,
+  "white-border": #dde0e4,
+  "grey-border": #e2e9fc,
 );
 
 @each $name, $color in $colors {

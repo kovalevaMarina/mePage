@@ -1,5 +1,15 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background: radial-gradient(
+      600.39% 110.7% at 10.01% -0%,
+      #ebf3ff 0%,
+      #fff 13.5%,
+      rgba(229, 240, 255, 0.38) 26.9%,
+      #fff 40.16%,
+      rgba(229, 240, 255, 0.47) 61.7%,
+      #fff 79.17%
+    ),
+    #fff;
 }
 
 .fm-roboto {

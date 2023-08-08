@@ -10,7 +10,7 @@ import Table from "react-bootstrap/Table";
 
 function Competitors() {
   return (
-    <section className="mb-s">
+    <section className="competitors mb-s">
       <Container>
         <h3 className="title-h3 mb-2">Competitors</h3>
         <h2 className="title-h2">Why ME Page?</h2>
@@ -21,7 +21,12 @@ function Competitors() {
                 <tr>
                   <th>Features</th>
                   <th className="table-cell_rigth">
-                    <Logo firstColor={"#3A83F6"} secondColor={"#3E4857"} />
+                    <Logo
+                      width={86}
+                      height={28}
+                      firstColor={"#3A83F6"}
+                      secondColor={"#3E4857"}
+                    />
                   </th>
                 </tr>
               </thead>
@@ -124,7 +129,7 @@ function Competitors() {
           ability to share project for view or edit, ability to edit HTML and
           CSS code directly and its 24/7 live chat and email customer support.
         </p>
-        <ButtonPress variantClass={"primary"} />
+        <ButtonPress variant={"primary"} value={"Get Started"} />
       </Container>
     </section>
   );

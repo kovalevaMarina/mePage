@@ -1,5 +1,7 @@
+import "./Features.scss";
+
 import FeatureItem from "./FeatureItem";
-import ButtonPrimary from "../Button/Button";
+import ButtonPress from "../Button/Button";
 
 import featureCustom from "../../assets/images/feature-custom.png";
 import featureMode from "../../assets/images/feature-mode.png";
@@ -58,7 +60,7 @@ function Features() {
           Have greater control over the design and content of your website, and
           can make changes in real-time to see how they look before publishing.
         </p>
-        <ButtonPrimary />
+        <ButtonPress variant={"primary"} value={"Get Started"} />
       </Container>
     </section>
   );

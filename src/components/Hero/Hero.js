@@ -6,7 +6,7 @@ import Container from "react-bootstrap/Container";
 
 function Hero() {
   return (
-    <section className="pt-m mb-l">
+    <section className="hero pt-m mb-l">
       <Container>
         <img src={mainImgMob} />
         <h1 className="fs-xl fw-700 text-center color-grey700">
@@ -19,7 +19,7 @@ function Hero() {
           Build a website that fits your needs, not the other way around with
           our flexible website constructor ME-Page!
         </p>
-        <ButtonPress variant={"secondary"} />
+        <ButtonPress variant={"primary"} value={"Get Started"} />
       </Container>
     </section>
   );

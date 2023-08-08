@@ -14,7 +14,12 @@ function NavbarHeader() {
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container fluid className="flex-row-reverse">
         <Navbar.Brand href="/">
-          <Logo firstColor={"#3A83F6"} secondColor={"#3E4857"} />
+          <Logo
+            width={90}
+            height={30}
+            firstColor={"#3A83F6"}
+            secondColor={"#3E4857"}
+          />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="offcanvasNavbar-expand-lg" />
         <Navbar.Offcanvas placement="end">

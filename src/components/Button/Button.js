@@ -1,9 +1,9 @@
 import Button from "react-bootstrap/Button";
 
-function ButtonPress({ variantClass }) {
+function ButtonPress({ variant, value }) {
   return (
-    <Button variant={variantClass} className="fs-m fm-roboto ln-m fw-700 py-xs">
-      Get Started
+    <Button variant={variant} className="fs-m fm-roboto ln-m fw-700 py-xs">
+      {value}
     </Button>
   );
 }

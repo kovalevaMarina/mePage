@@ -1,9 +1,9 @@
-function Logo({ firstColor, secondColor }) {
+function Logo({ firstColor, secondColor, width, height }) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="91"
-      height="31"
+      width={width}
+      height={height}
       viewBox="0 0 91 31"
       fill="none"
     >

@@ -1,0 +1,40 @@
+@import "../../styles/index";
+
+.accordion {
+  &-item {
+    padding: 27px $spacer-s;
+    border: 1px solid $grey400;
+  }
+  &-button {
+    font-size: $fs-1m;
+    font-weight: 700;
+    line-height: $ln-xl;
+    color: $grey700;
+    padding: 0 0 $spacer-s 0;
+
+    &:not(.collapsed) {
+      box-shadow: none;
+      background-color: $white;
+    }
+
+    &:focus,
+    &:hover,
+    &:active {
+      border-color: transparent;
+    }
+
+    &::after {
+      margin-left: $spacer-s;
+    }
+  }
+
+  &-body {
+    width: 260px;
+    font-size: $fs-base;
+    font-weight: 400;
+    line-height: $ln-base;
+    color: $grey400;
+    border-top: 1px solid $white-border;
+    padding: 26px 0 0 0;
+  }
+}

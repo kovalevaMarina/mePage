@@ -1,17 +1,19 @@
 import "./Footer.scss";
 import Logo from "../Logo/Logo";
+import Socials from "../Socials/Socials";
+import Navigation from "../Navigation/Navigation";
+import OurProducts from "../OurProducts/OurProducts";
 
-import instagram from "../../assets/icons/instagram.svg";
-import facebook from "../../assets/icons/facebook.svg";
-import twitter from "../../assets/icons/twitter.svg";
+import visa from "../../assets/images/visa.png";
+import masterCard from "../../assets/images/master-card.png";
+import paypal from "../../assets/images/master-card.png";
 
 import Container from "react-bootstrap/Container";
 
-const socials = [instagram, facebook, twitter];
-
 function Footer() {
+  const payments = [visa, masterCard, paypal];
   return (
-    <footer className="footer bg-grey700 py-s">
+    <footer className="footer bg-grey-dark py-s">
       <Container>
         <div>
           <div>
@@ -29,24 +31,38 @@ function Footer() {
             personality.
           </p>
           <div>
-            {socials.map((social, i) => {
-              return (
-                <div key={i}>
-                  <img src={social} />
-                </div>
-              );
-            })}
+            <Socials />
           </div>
         </div>
         <div>
-          <div>
-            <p>Quick Links</p>
-            <ul>
-              <li>Benefits</li>
-            </ul>
-          </div>
+          <Navigation />
         </div>
-        <div></div>
+        <div className="product pb-s">
+          <OurProducts />
+        </div>
+        <div>
+          <p className="fs-s ln-2s fw-400 color-white">
+            <span className="color-grey400">© 2023,</span> ME-Team
+            <div>
+              {payments.map((payment) => {
+                return (
+                  <div className="payment-item bg-grey700 d-flex justify-content-center align-items-center">
+                    <img src={payment} />
+                  </div>
+                );
+              })}
+            </div>
+            <div className="d-flex justify-content-center align-items-center gap-xxs">
+              <p className="fs-s ln-2s fw-400 color-grey400">Made on</p>
+              <Logo
+                width={64}
+                height={21}
+                firstColor={"#ffffff"}
+                secondColor={"#3A83F6"}
+              />
+            </div>
+          </p>
+        </div>
       </Container>
     </footer>
   );

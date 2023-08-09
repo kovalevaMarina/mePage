@@ -4,6 +4,7 @@ import Features from "../../components/Features/Features";
 import Plans from "../../components/Plans/Plans";
 import Faq from "../../components/Faq/Faq";
 import Templates from "../../components/Templates/Templates";
+import Articles from "../../components/Articles/Articles";
 import ReadyToTry from "../../components/ReadyToTry/ReadyToTry";
 
 function Home() {
@@ -15,6 +16,7 @@ function Home() {
       <Plans />
       <Faq />
       <Templates />
+      <Articles />
       <ReadyToTry />
     </>
   );

@@ -1,1 +1,14 @@
 @import "../../styles/index";
+
+.footer {
+  .product {
+    border-bottom: 1px solid $grey400;
+  }
+}
+
+.payment-item {
+  width: 37px;
+  height: 22px;
+  padding: 2px;
+  border-radius: 3px;
+}

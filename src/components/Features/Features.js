@@ -1,5 +1,7 @@
 import "./Features.scss";
 
+import Row from "react-bootstrap/Row";
+
 import FeatureItem from "./FeatureItem";
 import ButtonPress from "../Button/Button";
 
@@ -42,21 +44,28 @@ const featuresData = [
 
 function Features() {
   return (
-    <section className="features py-s">
+    <section className="features py-s py-lg-5">
       <Container>
-        <h3 className="title-h3 mb-2">Key Features You Need to Know</h3>
-        <h2 className="title-h2 mb-s">Unleashing the Power of ME-Page</h2>
-        <p className="fs-1m ln-xl text-center color-grey400 hidden" hidden>
+        <h3 className="title-h3 mb-2 text-center text-uppercase">
+          Key Features You Need to Know
+        </h3>
+        <h2 className="title-h2 h1 mb-s text-center">
+          Unleashing the Power of ME-Page
+        </h2>
+        <p
+          className="features-text mx-auto fs-1m ln-xl text-center color-grey400 d-none d-lg-block mb-xxl"
+          hidden
+        >
           ME-Page have made website building more accessible than ever before,
           and their key features make it easy for anyone to create a
           professional-looking website in a matter of hours.
         </p>
-        <div>
+        <Row className="gap-5">
           {featuresData.map((feature, i) => (
-            <FeatureItem {...feature} key={i} />
+            <FeatureItem {...feature} key={i} index={i} />
           ))}
-        </div>
-        <p className="fs-m text-center ln-m fw-400 color-grey400 my-s">
+        </Row>
+        <p className="features-description mx-auto fs-m text-center ln-m fw-400 color-grey400 my-s">
           Have greater control over the design and content of your website, and
           can make changes in real-time to see how they look before publishing.
         </p>

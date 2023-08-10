@@ -10,14 +10,15 @@ import ReadyToTry from "../../components/ReadyToTry/ReadyToTry";
 function Home() {
   return (
     <>
-      <Hero />
-      <Competitors />
-      <Features />
+      {/* <Hero /> */}
+      {/* TODO not media */}
+      {/* <Competitors />  */}
+      {/* <Features /> */}
       <Plans />
-      <Faq />
+      {/* <Faq />
       <Templates />
       <Articles />
-      <ReadyToTry />
+      <ReadyToTry /> */}
     </>
   );
 }

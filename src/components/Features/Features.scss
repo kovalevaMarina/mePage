@@ -1,7 +1,19 @@
+@import "../../styles/index";
+
 .features {
   .btn-primary {
-    display: block;
-    width: 281px;
-    margin: 0 auto;
+    @include btn-style;
+
+    &:hover {
+      @include btn-style-hover;
+    }
+  }
+
+  &-text {
+    max-width: 1003px;
+  }
+
+  &-description {
+    max-width: 727px;
   }
 }

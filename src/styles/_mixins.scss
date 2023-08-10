@@ -1,11 +1,12 @@
-@mixin position-center-end {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
+@mixin btn-style {
+  display: block;
+  width: 281px;
+  margin: 0 auto;
+  border-radius: $border-radius;
+  transition: all 0.3s;
 }
 
-@mixin position-start-center {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
+@mixin btn-style-hover {
+  border: 1px solid $grey700;
+  background-color: $grey700;
 }

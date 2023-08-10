@@ -9,8 +9,10 @@ function Plans() {
   return (
     <section className="plans py-s">
       <Container>
-        <h3 className="title-h3 mb-2">Plans</h3>
-        <h2 className="title-h2 mb-s">Pick the Best Plan for You</h2>
+        <h3 className="title-h3 mb-2 text-center text-uppercase">Plans</h3>
+        <h2 className="title-h2 h1 mb-s text-center">
+          Pick the Best Plan for You
+        </h2>
         <FormSelect arrayOptions={currencies} currencies={true} />
         <Results />
       </Container>

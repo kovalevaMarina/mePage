@@ -10,6 +10,8 @@ $spacer-xl: 2 * $spacer-base; //60
 $spacer-xxl: 2.25 * $spacer-base; // 67.5
 $spacer-2xxl: 2.85 * $spacer-base; //85.8
 
+$border-radius: 4px;
+
 // all spacing
 $spacers: (
   "0": 0,
@@ -38,6 +40,21 @@ $sides: (
   l: "-left",
 );
 
+// breakpoints
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+$xxl: 1400px;
+
+$points: (
+  sm: $sm,
+  md: $md,
+  lg: $lg,
+  xl: $xl,
+  xxl: $xxl,
+);
+
 @each $key-spacer, $spacer in $spacers {
   @each $key-type, $type in $types {
     @each $key-side, $side in $sides {
@@ -51,11 +68,21 @@ $sides: (
       #{$type}-right: $spacer;
     }
 
+    // .#{$key-type}x-#{$key-point}-#{$key-spacer} {
+    //   #{$type}-left: $spacer;
+    //   #{$type}-right: $spacer;
+    // }
+
     // for vertical
     .#{$key-type}y-#{$key-spacer} {
       #{$type}-bottom: $spacer;
       #{$type}-top: $spacer;
     }
+
+    // .#{$key-type}y-#{$key-point}-#{$key-spacer} {
+    //   #{$type}-bottom: $spacer;
+    //   #{$type}-top: $spacer;
+    // }
   }
 
   .gap-#{$key-spacer} {

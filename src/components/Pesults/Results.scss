@@ -13,3 +13,11 @@
     }
   }
 }
+
+@media screen and (min-width: $lg) {
+  .results {
+    &_item {
+      width: 306px;
+    }
+  }
+}

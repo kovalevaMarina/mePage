@@ -1,10 +1,40 @@
 @import "../../styles/index";
 
-.navbar-toggler {
-  border: none;
+.navbar {
+  &-toggler {
+    border: none;
 
-  &:focus {
-    box-shadow: none;
-    border: 1px solid $blue;
+    &:focus {
+      box-shadow: none;
+      border: 1px solid $blue;
+    }
   }
+
+  .container {
+    display: block;
+  }
+
+  &-brand {
+    margin-right: 0;
+  }
+}
+
+.offcanvas {
+  .btn-primary {
+    width: 92px;
+    height: 42px;
+    padding: $spacer-xxs;
+    border-radius: $border-radius;
+    background-color: $blue-select;
+    transition: all 0.3s;
+
+    &:hover {
+      background-color: $grey700;
+      border: 1px solid $grey700;
+    }
+  }
+}
+
+.bg-body-tertiary {
+  background-color: transparent !important;
 }

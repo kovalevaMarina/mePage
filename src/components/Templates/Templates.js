@@ -19,14 +19,14 @@ const templatesData = [
 function Templates() {
   return (
     <section className="templates py-s py-lg-5">
-      <Container>
+      <Container fluid>
         <h3 className="title-h3 mb-2 text-uppercase text-center">Templates</h3>
         <h2 className="title-h2 h1 mb-0 text-center">
           Don't waste your time! choose from 100+ templates
         </h2>
         <Row className="py-s py-lg-5 justify-content-center gap-3">
           {templatesData.map((template, i) => (
-            <Col xs={12} md={5} xxl={3}>
+            <Col xs={12} md={4} xl={3}>
               <div className="templates-item" key={i}>
                 <img className="templates-item_img" src={template} />
               </div>

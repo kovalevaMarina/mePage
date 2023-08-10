@@ -10,3 +10,13 @@
   border: 1px solid $grey700;
   background-color: $grey700;
 }
+
+@mixin square-text-position {
+  position: absolute;
+  margin-left: -5px;
+  margin-top: -5px;
+  background-color: $white;
+  width: 10px;
+  height: 10px;
+  border: 1px solid $blue;
+}

@@ -1,58 +1,15 @@
 @import "../../styles/index";
 
-.card-body {
-  border-radius: 8px;
-  border: 1px solid $grey700;
-  box-shadow: 4px 4px 0 0 $blue-shadow;
-  transition: all 0.3s;
-  &:hover {
-    box-shadow: 4px 4px 0 0 $blue;
-  }
-}
-
 .competitors {
   .btn-primary {
-    display: block;
-    width: 281px;
+    @include btn-style;
+    &:hover {
+      @include btn-style-hover;
+    }
+  }
+
+  &-text {
+    max-width: 947px;
     margin: 0 auto;
-  }
-}
-
-.table {
-  margin: 0;
-  & > th {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 700;
-    font-size: $fs-2m;
-    line-height: $ln-2l;
-  }
-
-  td {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 400;
-    font-size: $fs-base;
-    line-height: $ln-base;
-  }
-
-  thead tr {
-    border-bottom: 1px solid $grey700;
-  }
-
-  tbody {
-    padding-top: 12px;
-  }
-
-  tbody tr:not(:last-child) {
-    border-bottom: 1px solid $white-border;
-  }
-
-  tbody td {
-    vertical-align: middle;
-    padding: 16px 8px;
-  }
-
-  .table-cell_rigth {
-    text-align: end;
-    vertical-align: middle;
   }
 }

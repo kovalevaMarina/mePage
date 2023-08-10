@@ -15,10 +15,10 @@ function Home() {
       {/* <Competitors />  */}
       {/* <Features /> */}
       {/* <Plans /> */}
-      <Faq />
-      {/* <Templates />
-      <Articles />
-      <ReadyToTry /> */}
+      {/* <Faq /> */}
+      <Templates />
+      {/* <Articles /> */}
+      {/* <ReadyToTry /> */}
     </>
   );
 }

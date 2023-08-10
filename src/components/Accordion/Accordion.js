@@ -4,6 +4,7 @@ import Accordion from "react-bootstrap/Accordion";
 function AccordionFaq() {
   // TODO: space between item (doesn't appear border to)
   // TODO: delete styles for states items
+  // TODO create structure data
   return (
     <Accordion
       defaultActiveKey="0"

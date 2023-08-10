@@ -2,6 +2,8 @@ import "./Articles.scss";
 
 import Container from "react-bootstrap/Container";
 import Carousel from "react-bootstrap/Carousel";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
 import articalFirst from "../../assets/images/article-first.png";
 import articalsecond from "../../assets/images/article-second.png";
@@ -36,14 +38,42 @@ const articalsData = [
     description:
       "From creating a visually appealing website to integrating essential features such as social...",
   },
+  {
+    imgUrl: articalFirst,
+    textTopic: "Tips, Constructor",
+    textTime: " - March 10, 2023",
+    title: "Your Dream Website with a User-Friendly Constructor",
+    description:
+      "Building a website can be a daunting task, especially for those who lack technical expertise.",
+  },
+
+  {
+    imgUrl: articalsecond,
+    textTopic: "Tips, Constructor",
+    textTime: " - March 10, 2023",
+    title: "How ME-Page Can Help You Build Your Business Online",
+    description:
+      "With customizable templates, user-friendly interfaces, and integrated e-commerce features...",
+  },
+
+  {
+    imgUrl: articalThird,
+    textTopic: "Tips, Constructor",
+    textTime: " - March 10, 2023",
+    title: "Maximizing the Potential of Online Store with ME-Page",
+    description:
+      "From creating a visually appealing website to integrating essential features such as social...",
+  },
 ];
 
 function Articles() {
   return (
-    <section className="articles py-s">
-      <Container>
-        <h3 className="title-h3 mb-2">Articles</h3>
-        <h2 className="title-h2">Latest news from ME-Page team</h2>
+    <section className="articles py-s py-lg-5">
+      <Container fluid>
+        <h3 className="title-h3 mb-2 text-uppercase text-center">Articles</h3>
+        <h2 className="title-h2 fs-1 text-center">
+          Latest news from ME-Page team
+        </h2>
         <Carousel>
           {articalsData.map((artical) => {
             return (

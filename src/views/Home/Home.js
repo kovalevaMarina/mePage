@@ -16,9 +16,9 @@ function Home() {
       {/* <Features /> */}
       {/* <Plans /> */}
       {/* <Faq /> */}
-      <Templates />
+      {/* <Templates /> */}
       {/* <Articles /> */}
-      {/* <ReadyToTry /> */}
+      <ReadyToTry />
     </>
   );
 }

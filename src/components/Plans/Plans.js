@@ -10,7 +10,7 @@ function Plans() {
     <section className="plans py-s">
       <Container>
         <h3 className="title-h3 mb-2 text-center text-uppercase">Plans</h3>
-        <h2 className="title-h2 h1 mb-s text-center">
+        <h2 className="title-h2 fs-1 mb-s text-center">
           Pick the Best Plan for You
         </h2>
         <FormSelect arrayOptions={currencies} currencies={true} />

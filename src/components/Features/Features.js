@@ -49,7 +49,7 @@ function Features() {
         <h3 className="title-h3 mb-2 text-center text-uppercase">
           Key Features You Need to Know
         </h3>
-        <h2 className="title-h2 h1 mb-s text-center">
+        <h2 className="title-h2 fs-1 mb-s text-center">
           Unleashing the Power of ME-Page
         </h2>
         <p className="features-text mx-auto fs-1m ln-xl text-center color-grey400 d-none d-lg-block mb-xxl">

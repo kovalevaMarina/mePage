@@ -1,6 +1,14 @@
 @import "../../styles/index";
 
 .ready-try {
+  &_title {
+    width: 281px;
+  }
+
+  &_text {
+    max-width: 1003px;
+  }
+
   .btn-light {
     display: block;
     width: 281px;
@@ -8,5 +16,13 @@
     border-radius: 4px;
     color: $blue;
     margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: $md) {
+  .ready-try {
+    &_title {
+      width: 100%;
+    }
   }
 }

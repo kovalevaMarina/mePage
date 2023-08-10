@@ -51,3 +51,16 @@
     }
   }
 }
+
+@media screen and (min-width: $md) {
+  .carousel {
+    &-inner {
+      display: flex;
+    }
+
+    &-item {
+      flex: 0 0 50%;
+      display: block;
+    }
+  }
+}

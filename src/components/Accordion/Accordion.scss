@@ -1,11 +1,16 @@
 @import "../../styles/index";
 
 .accordion {
+  max-width: 636px;
   &-item {
     padding: 27px $spacer-s;
     border: 1px solid $grey400;
+    &:not(:first-of-type) {
+      border-top: 1px solid $grey400;
+    }
   }
   &-button {
+    justify-content: space-between;
     font-size: $fs-1m;
     font-weight: 700;
     line-height: $ln-xl;
@@ -29,7 +34,7 @@
   }
 
   &-body {
-    width: 260px;
+    max-width: 546px;
     font-size: $fs-base;
     font-weight: 400;
     line-height: $ln-base;

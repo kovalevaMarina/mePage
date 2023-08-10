@@ -52,10 +52,7 @@ function Features() {
         <h2 className="title-h2 h1 mb-s text-center">
           Unleashing the Power of ME-Page
         </h2>
-        <p
-          className="features-text mx-auto fs-1m ln-xl text-center color-grey400 d-none d-lg-block mb-xxl"
-          hidden
-        >
+        <p className="features-text mx-auto fs-1m ln-xl text-center color-grey400 d-none d-lg-block mb-xxl">
           ME-Page have made website building more accessible than ever before,
           and their key features make it easy for anyone to create a
           professional-looking website in a matter of hours.

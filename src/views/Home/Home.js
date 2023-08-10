@@ -14,9 +14,9 @@ function Home() {
       {/* TODO not media */}
       {/* <Competitors />  */}
       {/* <Features /> */}
-      <Plans />
-      {/* <Faq />
-      <Templates />
+      {/* <Plans /> */}
+      <Faq />
+      {/* <Templates />
       <Articles />
       <ReadyToTry /> */}
     </>

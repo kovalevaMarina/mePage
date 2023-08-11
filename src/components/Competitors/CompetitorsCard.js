@@ -1,6 +1,6 @@
 import "./CompetitorsCard.scss";
 import circleCheck from "../../assets/icons/check-circle.svg";
-import circleX from "../../assets/icons/x-circle.svg";
+import CircleX from "../Icones/CircleX";
 import Logo from "../Logo/Logo";
 
 import Card from "react-bootstrap/Card";
@@ -68,31 +68,31 @@ function CompetitorsCard() {
                 <tr>
                   <td className="d-lg-none">Share Project</td>
                   <td className="text-end text-lg-center">
-                    <img src={circleCheck} />
+                    <img src={circleCheck} alt="Icon circle check" />
                   </td>
                 </tr>
                 <tr>
                   <td className="d-lg-none">Customized Templates</td>
                   <td className="text-end text-lg-center">
-                    <img src={circleCheck} />
+                    <img src={circleCheck} alt="Icon circle check" />
                   </td>
                 </tr>
                 <tr>
                   <td className="d-lg-none">Customized Ready-made Blocks</td>
                   <td className="text-end text-lg-center">
-                    <img src={circleCheck} />
+                    <img src={circleCheck} alt="Icon circle check" />
                   </td>
                 </tr>
                 <tr>
                   <td className="d-lg-none">HTML and CSS editing</td>
                   <td className="text-end text-lg-center">
-                    <img src={circleCheck} />
+                    <img src={circleCheck} alt="Icon circle check" />
                   </td>
                 </tr>
                 <tr>
                   <td className="d-lg-none">Advanced Mode</td>
                   <td className="text-end text-lg-center">
-                    <img src={circleCheck} />
+                    <img src={circleCheck} alt="Icon circle check" />
                   </td>
                 </tr>
                 <tr>
@@ -126,7 +126,7 @@ function CompetitorsCard() {
                 <tr>
                   <td className="d-lg-none">Share Project</td>
                   <td className="text-end text-lg-center">
-                    <img src={circleX} />
+                    <CircleX circleColor={"#3E4957"} />
                   </td>
                 </tr>
                 <tr>
@@ -138,19 +138,19 @@ function CompetitorsCard() {
                 <tr>
                   <td className="d-lg-none">Customized Ready-made Blocks</td>
                   <td className="text-end text-lg-center">
-                    <img src={circleX} />
+                    <CircleX circleColor={"#3E4957"} />
                   </td>
                 </tr>
                 <tr>
                   <td className="d-lg-none">HTML and CSS editing</td>
                   <td className="text-end text-lg-center">
-                    <img src={circleX} />
+                    <CircleX circleColor={"#3E4957"} />
                   </td>
                 </tr>
                 <tr>
                   <td className="d-lg-none">Advanced Mode</td>
                   <td className="text-end text-lg-center">
-                    <img src={circleX} />
+                    <CircleX circleColor={"#3E4957"} />
                   </td>
                 </tr>
                 <tr>

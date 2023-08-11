@@ -28,7 +28,11 @@ function Templates() {
           {templatesData.map((template, i) => (
             <Col xs={12} md={4} xl={3}>
               <div className="templates-item" key={i}>
-                <img className="templates-item_img" src={template} />
+                <img
+                  className="templates-item_img"
+                  src={template}
+                  alt="Screen template"
+                />
               </div>
             </Col>
           ))}

@@ -11,7 +11,6 @@ function Home() {
   return (
     <>
       <Hero />
-      {/* TODO not media */}
       <Competitors />
       <Features />
       <Plans />

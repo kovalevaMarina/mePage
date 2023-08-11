@@ -58,7 +58,7 @@ function Footer() {
                 {payments.map((payment) => {
                   return (
                     <div className="payment-item bg-grey700 d-flex justify-content-center align-items-center">
-                      <img src={payment} />
+                      <img src={payment} alt="Payment systems" />
                     </div>
                   );
                 })}

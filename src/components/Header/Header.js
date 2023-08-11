@@ -1,8 +1,11 @@
 import Navbar from "../Navbar/Navbar";
 
 function Header() {
-  // TODO add to one component
-  return <Navbar />;
+  return (
+    <header>
+      <Navbar />
+    </header>
+  );
 }
 
 export default Header;

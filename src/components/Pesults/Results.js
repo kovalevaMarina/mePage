@@ -26,7 +26,7 @@ function Results() {
           className="results_item p-s d-flex gap-s align-items-center"
         >
           <div className="results_item-img d-flex justify-content-center align-items-center">
-            <img src={result.icon} />
+            <img src={result.icon} alt={`Icon for ${result.text}`} />
           </div>
           <div className="results_item-info">
             <span className="fs-2xl fw-700 text-capitalize ln-xxl">

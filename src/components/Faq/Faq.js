@@ -21,7 +21,7 @@ function Faq() {
         <Row className="d-flex flex-column justify-content-between align-items-center flex-lg-row-reverse pt-lg-5 gap-3">
           <Col>
             <div className="faq-img">
-              <img src={faqImg} />
+              <img src={faqImg} alt="Search questions" />
             </div>
           </Col>
           <Col>

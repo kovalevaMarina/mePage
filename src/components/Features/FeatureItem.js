@@ -7,7 +7,7 @@ function FeatureItem({ title, description, imgUrl, index }) {
     <Col xs={12}>
       <div className="features-item d-lg-flex gap-lg-5 justify-content-lg-between align-items-lg-center">
         <div className="features-item_img">
-          <img src={imgUrl} />
+          <img src={imgUrl} alt={title} />
         </div>
         <div
           className={`${

@@ -74,33 +74,41 @@ function Articles() {
         <h2 className="title-h2 fs-1 text-center">
           Latest news from ME-Page team
         </h2>
-        <Carousel>
-          {articalsData.map((artical) => {
-            return (
-              <Carousel.Item>
-                <img src={artical.imgUrl} className="d-block w-100" />
-                <Carousel.Caption>
-                  <p className="fs-m ln-m fw-400 color-grey400">
-                    <span className="fw-700 color-grey700">
-                      {artical.textTopic}
-                    </span>
-                    {artical.textTime}
-                  </p>
-                  <h3 className="fs-l ln-xl fw-700 color-grey700 my-xs">
-                    {artical.title}
-                  </h3>
-                  <p className="fs-m ln-m fw-400 color-grey400 mb-s">
-                    {artical.description}
-                  </p>
-                  <ButtonPress
-                    variant={"outline-primary"}
-                    value={"Read More"}
-                  />
-                </Carousel.Caption>
-              </Carousel.Item>
-            );
-          })}
-        </Carousel>
+        <Row>
+          <Carousel>
+            {articalsData.map((artical) => {
+              return (
+                <Col xs={12} lg={4}>
+                  <Carousel.Item>
+                    <img
+                      src={artical.imgUrl}
+                      className="d-block w-100"
+                      alt={`Artical about ${artical.title}`}
+                    />
+                    <Carousel.Caption>
+                      <p className="fs-m ln-m fw-400 color-grey400">
+                        <span className="fw-700 color-grey700">
+                          {artical.textTopic}
+                        </span>
+                        {artical.textTime}
+                      </p>
+                      <h3 className="fs-l ln-xl fw-700 color-grey700 my-xs">
+                        {artical.title}
+                      </h3>
+                      <p className="fs-m ln-m fw-400 color-grey400 mb-s">
+                        {artical.description}
+                      </p>
+                      <ButtonPress
+                        variant={"outline-primary"}
+                        value={"Read More"}
+                      />
+                    </Carousel.Caption>
+                  </Carousel.Item>
+                </Col>
+              );
+            })}
+          </Carousel>
+        </Row>
       </Container>
     </section>
   );

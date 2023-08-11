@@ -10,19 +10,50 @@ import mePromo from "../../assets/images/me-promo.png";
 
 function OurProducts() {
   const allProducts = [
-    meTicket,
-    meQa,
-    meReview,
-    meBooking,
-    meAds,
-    meCity,
-    mePromo,
+    {
+      imgUrl: meTicket,
+      productName: "meTicket",
+    },
+
+    {
+      imgUrl: meQa,
+      productName: "meQa",
+    },
+
+    {
+      imgUrl: meReview,
+      productName: "meReview",
+    },
+
+    {
+      imgUrl: meBooking,
+      productName: "meBooking",
+    },
+
+    {
+      imgUrl: meAds,
+      productName: "meAds",
+    },
+
+    {
+      imgUrl: meCity,
+      productName: "meCity",
+    },
+
+    {
+      imgUrl: mePromo,
+      productName: "mePromo",
+    },
   ];
   return (
     <>
       {allProducts.map((product, i) => (
         <div className="product-item" key={i}>
-          <img className="product-item_img" src={product} />
+          <img
+            className="product-item_img"
+            src={product.imgUrl}
+            alt={`Icon ${product.productName}`}
+          />
         </div>
       ))}
     </>

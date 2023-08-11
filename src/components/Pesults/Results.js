@@ -8,14 +8,14 @@ import collection from "../../assets/icons/collection.svg";
 import file from "../../assets/icons/file.svg";
 import people from "../../assets/icons/people.svg";
 
-const resultsData = [
-  { icon: layoutText, number: "567+", text: "Template Blocks" },
-  { icon: collection, number: "45+", text: "Templates" },
-  { icon: file, number: "323+", text: "Pages Created" },
-  { icon: people, number: "187+", text: "Happy Clients" },
-];
-
 function Results() {
+  const resultsData = [
+    { icon: layoutText, number: "567+", text: "Template Blocks" },
+    { icon: collection, number: "45+", text: "Templates" },
+    { icon: file, number: "323+", text: "Pages Created" },
+    { icon: people, number: "187+", text: "Happy Clients" },
+  ];
+
   return (
     <Row className="results gap-3 justify-content-center py-5">
       {resultsData.map((result) => (

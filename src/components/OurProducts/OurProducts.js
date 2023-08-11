@@ -1,5 +1,3 @@
-import "./OurProducts.scss";
-
 import meTicket from "../../assets/images/me-ticket.png";
 import meQa from "../../assets/images/me-qa.png";
 import meReview from "../../assets/images/me-peview.png";
@@ -48,7 +46,7 @@ function OurProducts() {
   return (
     <>
       {allProducts.map((product, i) => (
-        <div className="product-item" key={i}>
+        <div className="product-item" key={i} style={{ height: "35px" }}>
           <img
             className="product-item_img"
             src={product.imgUrl}

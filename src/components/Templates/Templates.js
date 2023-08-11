@@ -7,16 +7,16 @@ import templateOne from "../../assets/images/templates-1.jpg";
 import templateTwo from "../../assets/images/templates-2.jpg";
 import ButtonPress from "../Button/Button";
 
-const templatesData = [
-  templateOne,
-  templateTwo,
-  templateOne,
-  templateTwo,
-  templateOne,
-  templateTwo,
-];
-
 function Templates() {
+  const templatesData = [
+    templateOne,
+    templateTwo,
+    templateOne,
+    templateTwo,
+    templateOne,
+    templateTwo,
+  ];
+
   return (
     <section className="templates py-s py-lg-5">
       <Container fluid>

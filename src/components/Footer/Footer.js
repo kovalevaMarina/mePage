@@ -14,6 +14,7 @@ import Col from "react-bootstrap/Col";
 
 function Footer() {
   const payments = [visa, masterCard, paypal];
+
   return (
     <footer className="footer bg-grey-dark py-s py-md-5">
       <Container>

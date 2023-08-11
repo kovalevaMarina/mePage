@@ -8,6 +8,7 @@ import PlansCard from "./PlansCard";
 
 function Plans() {
   const currencies = ["GBP", "EUR", "USD"];
+
   return (
     <section className="plans py-s">
       <Container>

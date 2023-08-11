@@ -10,12 +10,13 @@
   }
 
   .btn-light {
-    display: block;
-    width: 281px;
+    @include btn-style;
     padding: 13px;
-    border-radius: 4px;
     color: $blue;
-    margin: 0 auto;
+    &:hover {
+      @include btn-style-hover;
+      color: $white;
+    }
   }
 }
 

@@ -11,62 +11,62 @@ import articalThird from "../../assets/images/article-third.png";
 
 import ButtonPress from "../Button/Button";
 
-const articalsData = [
-  {
-    imgUrl: articalFirst,
-    textTopic: "Tips, Constructor",
-    textTime: " - March 10, 2023",
-    title: "Your Dream Website with a User-Friendly Constructor",
-    description:
-      "Building a website can be a daunting task, especially for those who lack technical expertise.",
-  },
-
-  {
-    imgUrl: articalsecond,
-    textTopic: "Tips, Constructor",
-    textTime: " - March 10, 2023",
-    title: "How ME-Page Can Help You Build Your Business Online",
-    description:
-      "With customizable templates, user-friendly interfaces, and integrated e-commerce features...",
-  },
-
-  {
-    imgUrl: articalThird,
-    textTopic: "Tips, Constructor",
-    textTime: " - March 10, 2023",
-    title: "Maximizing the Potential of Online Store with ME-Page",
-    description:
-      "From creating a visually appealing website to integrating essential features such as social...",
-  },
-  {
-    imgUrl: articalFirst,
-    textTopic: "Tips, Constructor",
-    textTime: " - March 10, 2023",
-    title: "Your Dream Website with a User-Friendly Constructor",
-    description:
-      "Building a website can be a daunting task, especially for those who lack technical expertise.",
-  },
-
-  {
-    imgUrl: articalsecond,
-    textTopic: "Tips, Constructor",
-    textTime: " - March 10, 2023",
-    title: "How ME-Page Can Help You Build Your Business Online",
-    description:
-      "With customizable templates, user-friendly interfaces, and integrated e-commerce features...",
-  },
-
-  {
-    imgUrl: articalThird,
-    textTopic: "Tips, Constructor",
-    textTime: " - March 10, 2023",
-    title: "Maximizing the Potential of Online Store with ME-Page",
-    description:
-      "From creating a visually appealing website to integrating essential features such as social...",
-  },
-];
-
 function Articles() {
+  const articalsData = [
+    {
+      imgUrl: articalFirst,
+      textTopic: "Tips, Constructor",
+      textTime: " - March 10, 2023",
+      title: "Your Dream Website with a User-Friendly Constructor",
+      description:
+        "Building a website can be a daunting task, especially for those who lack technical expertise.",
+    },
+
+    {
+      imgUrl: articalsecond,
+      textTopic: "Tips, Constructor",
+      textTime: " - March 10, 2023",
+      title: "How ME-Page Can Help You Build Your Business Online",
+      description:
+        "With customizable templates, user-friendly interfaces, and integrated e-commerce features...",
+    },
+
+    {
+      imgUrl: articalThird,
+      textTopic: "Tips, Constructor",
+      textTime: " - March 10, 2023",
+      title: "Maximizing the Potential of Online Store with ME-Page",
+      description:
+        "From creating a visually appealing website to integrating essential features such as social...",
+    },
+    {
+      imgUrl: articalFirst,
+      textTopic: "Tips, Constructor",
+      textTime: " - March 10, 2023",
+      title: "Your Dream Website with a User-Friendly Constructor",
+      description:
+        "Building a website can be a daunting task, especially for those who lack technical expertise.",
+    },
+
+    {
+      imgUrl: articalsecond,
+      textTopic: "Tips, Constructor",
+      textTime: " - March 10, 2023",
+      title: "How ME-Page Can Help You Build Your Business Online",
+      description:
+        "With customizable templates, user-friendly interfaces, and integrated e-commerce features...",
+    },
+
+    {
+      imgUrl: articalThird,
+      textTopic: "Tips, Constructor",
+      textTime: " - March 10, 2023",
+      title: "Maximizing the Potential of Online Store with ME-Page",
+      description:
+        "From creating a visually appealing website to integrating essential features such as social...",
+    },
+  ];
+
   return (
     <section className="articles py-s py-lg-5">
       <Container fluid>

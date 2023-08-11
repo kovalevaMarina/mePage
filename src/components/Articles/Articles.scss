@@ -2,18 +2,15 @@
 
 .articles {
   .btn-outline-primary {
-    display: block;
+    @include btn-style;
     width: 100%;
-    margin: 0 auto;
     padding: 13px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
     color: $blue;
     border-color: $blue;
-    transition: all 0.3s;
     &:hover {
-      background-color: $grey400;
-      border-color: $grey400;
+      @include btn-style-hover;
       color: $white;
     }
   }

@@ -17,6 +17,14 @@
       border: 1px solid $blue;
       box-shadow: 2px 2px 0px 0px $blue-shadow;
     }
+
+    &-first {
+      padding: 24px 24px 110px 24px;
+    }
+
+    &-second {
+      padding: 24px 24px 63px 24px;
+    }
   }
 
   .table {
@@ -68,7 +76,7 @@
   }
 }
 
-@media screen and (min-width: $lg) {
+@media screen and (min-width: $xl) {
   .plans {
     &-card {
       &_wrap {
@@ -83,10 +91,40 @@
 
     .card {
       &-body {
+        padding: 0;
         box-shadow: none;
         border-radius: 0;
         border: 1px solid transparent;
       }
     }
+  }
+}
+
+.active {
+  background-color: $blue;
+
+  .table td {
+    color: $white;
+    background-color: $blue;
+  }
+
+  h4,
+  h2,
+  p {
+    color: $white;
+  }
+
+  h2 span {
+    color: $white;
+  }
+
+  .plans-rate {
+    color: $blue;
+    background-color: $white;
+    box-shadow: 2px 2px 0px 0px $blue-shadow;
+  }
+
+  .btn-outline-primary {
+    background-color: $white;
   }
 }

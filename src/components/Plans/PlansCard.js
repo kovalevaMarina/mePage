@@ -11,14 +11,14 @@ import Col from "react-bootstrap/Col";
 function PlansCard() {
   return (
     <div className="plans-card_wrap">
-      <Row className="d-flex flex-nowrap flex-lg-row align-items-stretch gap-4  justify-content-center gap-lg-0 py-4 py-lg-0">
-        <Col lg={3}>
-          <Card className="d-none d-lg-flex">
-            <Card.Body>
+      <Row className="d-flex flex-xl-row align-items-stretch gap-4 justify-content-center gap-xl-0 py-4 py-xl-0">
+        <Col xl={3}>
+          <Card className="d-none d-xl-flex">
+            <Card.Body className="p-2">
+              <div className="card-first text-center">
+                <h4 className="fw-700 fs-5 color-grey700">Benefits</h4>
+              </div>
               <Table>
-                <div className="text-center p-4">
-                  <h4 className="fw-700 fs-5 color-grey700">Benefits</h4>
-                </div>
                 <tbody>
                   <tr>
                     <td>Created web Pages</td>
@@ -50,10 +50,10 @@ function PlansCard() {
           </Card>
         </Col>
 
-        <Col lg={3}>
+        <Col xl={3}>
           <Card>
-            <Card.Body>
-              <div className="text-center p-4">
+            <Card.Body className="p-2">
+              <div className="card-second text-center">
                 <h4 className="fw-700 fs-5 color-grey700">Free</h4>
                 <h2 className="fs-s color-grey400">
                   <span className="h1 fw-bold color-grey700 my-2">$0</span> /
@@ -63,50 +63,50 @@ function PlansCard() {
               <Table>
                 <tbody>
                   <tr>
-                    <td className="d-lg-none">Created web Pages</td>
-                    <td className="text-end text-lg-center fw-bold">
+                    <td className="d-xl-none">Created web Pages</td>
+                    <td className="text-end text-xl-center fw-bold">
                       100 Pages
                     </td>
                   </tr>
                   <tr>
-                    <td className="d-lg-none">Created Projects</td>
-                    <td className="text-end text-lg-center fw-bold">
+                    <td className="d-xl-none">Created Projects</td>
+                    <td className="text-end text-xl-center fw-bold">
                       5 Projects
                     </td>
                   </tr>
                   <tr>
-                    <td className="d-lg-none">Share Projects / Pages</td>
-                    <td className="text-end text-lg-center fw-bold">
+                    <td className="d-xl-none">Share Projects / Pages</td>
+                    <td className="text-end text-xl-center fw-bold">
                       10 Projects
                     </td>
                   </tr>
                   <tr>
-                    <td className="d-lg-none">Ready-made Blocks</td>
-                    <td className="text-end text-lg-center fw-bold">
+                    <td className="d-xl-none">Ready-made Blocks</td>
+                    <td className="text-end text-xl-center fw-bold">
                       20 Blocks
                     </td>
                   </tr>
                   <tr>
-                    <td className="d-lg-none">Templates</td>
-                    <td className="text-end text-lg-center fw-bold">
+                    <td className="d-xl-none">Templates</td>
+                    <td className="text-end text-xl-center fw-bold">
                       100 Templates
                     </td>
                   </tr>
                   <tr>
-                    <td className="d-lg-none">Advanced Mode</td>
-                    <td className="text-end text-lg-center">
+                    <td className="d-xl-none">Advanced Mode</td>
+                    <td className="text-end text-xl-center">
                       <CircleX circleColor={"#DDE0E4"} />
                     </td>
                   </tr>
                   <tr>
-                    <td className="d-lg-none">Personal Support Manager</td>
-                    <td className="text-end text-lg-center">
+                    <td className="d-xl-none">Personal Support Manager</td>
+                    <td className="text-end text-xl-center">
                       <CircleCheck CircleColor={"#3A83F6"} bgColor={"none"} />
                     </td>
                   </tr>
                   <tr>
-                    <td className="d-lg-none">No Advertising</td>
-                    <td className="text-end text-lg-center">
+                    <td className="d-xl-none">No Advertising</td>
+                    <td className="text-end text-xl-center">
                       <CircleX circleColor={"#DDE0E4"} />
                     </td>
                   </tr>
@@ -117,11 +117,11 @@ function PlansCard() {
           </Card>
         </Col>
 
-        <Col lg={3}>
+        <Col xl={3}>
           <Card>
-            <Card.Body>
+            <Card.Body className="p-2">
               <div className="text-center p-4">
-                <h4 className="fw-700 fs-5 color-grey700 d-flex align-items-center gap-1">
+                <h4 className="fw-700 fs-5 color-grey700 d-flex align-items-center  justify-content-center gap-1">
                   Monthly{" "}
                   <span className="plans-rate fs-s ln-s d-inline-block">
                     Popular
@@ -135,48 +135,48 @@ function PlansCard() {
               <Table>
                 <tbody>
                   <tr>
-                    <td className="d-lg-none">Created web Pages</td>
-                    <td className="text-end text-lg-center fw-bold">
+                    <td className="d-xl-none">Created web Pages</td>
+                    <td className="text-end text-xl-center fw-bold">
                       Unlimited
                     </td>
                   </tr>
                   <tr>
-                    <td className="d-lg-none">Created Projects</td>
-                    <td className="text-end text-lg-center fw-bold">
+                    <td className="d-xl-none">Created Projects</td>
+                    <td className="text-end text-xl-center fw-bold">
                       Unlimited
                     </td>
                   </tr>
                   <tr>
-                    <td className="d-lg-none">Share Projects / Pages</td>
-                    <td className="text-end text-lg-center fw-bold">
+                    <td className="d-xl-none">Share Projects / Pages</td>
+                    <td className="text-end text-xl-center fw-bold">
                       Unlimited
                     </td>
                   </tr>
                   <tr>
-                    <td className="d-lg-none">Ready-made Blocks</td>
-                    <td className="text-end text-lg-center fw-bold">
+                    <td className="d-xl-none">Ready-made Blocks</td>
+                    <td className="text-end text-xl-center fw-bold">
                       Unlimited
                     </td>
                   </tr>
                   <tr>
-                    <td className="d-lg-none">Templates</td>
-                    <td className="text-end text-lg-center fw-bold">500+</td>
+                    <td className="d-xl-none">Templates</td>
+                    <td className="text-end text-xl-center fw-bold">500+</td>
                   </tr>
                   <tr>
-                    <td className="d-lg-none">Advanced Mode</td>
-                    <td className="text-end text-lg-center">
+                    <td className="d-xl-none">Advanced Mode</td>
+                    <td className="text-end text-xl-center">
                       <CircleCheck CircleColor={"#3A83F6"} bgColor={"none"} />
                     </td>
                   </tr>
                   <tr>
-                    <td className="d-lg-none">Personal Support Manager</td>
-                    <td className="text-end text-lg-center">
+                    <td className="d-xl-none">Personal Support Manager</td>
+                    <td className="text-end text-xl-center">
                       <CircleCheck CircleColor={"#3A83F6"} bgColor={"none"} />
                     </td>
                   </tr>
                   <tr>
-                    <td className="d-lg-none">No Advertising</td>
-                    <td className="text-end text-lg-center">
+                    <td className="d-xl-none">No Advertising</td>
+                    <td className="text-end text-xl-center">
                       <CircleCheck CircleColor={"#3A83F6"} bgColor={"none"} />
                     </td>
                   </tr>
@@ -187,11 +187,11 @@ function PlansCard() {
           </Card>
         </Col>
 
-        <Col lg={3}>
+        <Col xl={3}>
           <Card>
-            <Card.Body>
+            <Card.Body className="active p-2">
               <div className="text-center p-4">
-                <h4 className="fw-700 fs-5 color-grey700 d-flex align-items-center gap-1">
+                <h4 className="fw-700 fs-5 color-grey700 d-flex align-items-center justify-content-center gap-1">
                   Annualy{" "}
                   <span className="plans-rate fs-s ln-s d-inline-block">
                     Optimal
@@ -205,49 +205,58 @@ function PlansCard() {
               <Table>
                 <tbody>
                   <tr>
-                    <td className="d-lg-none">Created web Pages</td>
-                    <td className="text-end text-lg-center fw-bold">
+                    <td className="d-xl-none">Created web Pages</td>
+                    <td className="text-end text-xl-center fw-bold">
                       Unlimited
                     </td>
                   </tr>
                   <tr>
-                    <td className="d-lg-none">Created Projects</td>
-                    <td className="text-end text-lg-center fw-bold">
+                    <td className="d-xl-none">Created Projects</td>
+                    <td className="text-end text-xl-center fw-bold">
                       Unlimited
                     </td>
                   </tr>
                   <tr>
-                    <td className="d-lg-none">Share Projects / Pages</td>
-                    <td className="text-end text-lg-center fw-bold">
+                    <td className="d-xl-none">Share Projects / Pages</td>
+                    <td className="text-end text-xl-center fw-bold">
                       Unlimited
                     </td>
                   </tr>
                   <tr>
-                    <td className="d-lg-none">Ready-made Blocks</td>
-                    <td className="text-end text-lg-center fw-bold">
+                    <td className="d-xl-none">Ready-made Blocks</td>
+                    <td className="text-end text-xl-center fw-bold">
                       Unlimited
                     </td>
                   </tr>
                   <tr>
-                    <td className="d-lg-none">Templates</td>
-                    <td className="text-end text-lg-center fw-bold">500+</td>
+                    <td className="d-xl-none">Templates</td>
+                    <td className="text-end text-xl-center fw-bold">500+</td>
                   </tr>
                   <tr>
-                    <td className="d-lg-none">Advanced Mode</td>
-                    <td className="text-end text-lg-center">
-                      <CircleX circleColor={"#DDE0E4"} />
+                    <td className="d-xl-none">Advanced Mode</td>
+                    <td className="text-end text-xl-center">
+                      <CircleCheck
+                        CircleColor={"#ffffff"}
+                        bgColor={"#3A83F6"}
+                      />
                     </td>
                   </tr>
                   <tr>
-                    <td className="d-lg-none">Personal Support Manager</td>
-                    <td className="text-end text-lg-center">
-                      <CircleCheck CircleColor={"#3A83F6"} bgColor={"none"} />
+                    <td className="d-xl-none">Personal Support Manager</td>
+                    <td className="text-end text-xl-center">
+                      <CircleCheck
+                        CircleColor={"#ffffff"}
+                        bgColor={"#3A83F6"}
+                      />
                     </td>
                   </tr>
                   <tr>
-                    <td className="d-lg-none">No Advertising</td>
-                    <td className="text-end text-lg-center">
-                      <CircleX circleColor={"#DDE0E4"} />
+                    <td className="d-xl-none">No Advertising</td>
+                    <td className="text-end text-xl-center">
+                      <CircleCheck
+                        CircleColor={"#ffffff"}
+                        bgColor={"#3A83F6"}
+                      />
                     </td>
                   </tr>
                 </tbody>

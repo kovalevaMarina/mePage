@@ -18,7 +18,8 @@
 @media screen and (min-width: $lg) {
   .competitors {
     background-image: url("../../assets/images/competitors-bg.svg");
-    background-position: center center;
+    background-position: top center;
     background-repeat: no-repeat;
+    background-size: contain;
   }
 }

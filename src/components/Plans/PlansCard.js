@@ -189,7 +189,7 @@ function PlansCard() {
 
         <Col xl={3}>
           <Card>
-            <Card.Body className="active p-2">
+            <Card.Body className="active-card p-2">
               <div className="text-center p-4">
                 <h4 className="fw-700 fs-5 color-grey700 d-flex align-items-center justify-content-center gap-1">
                   Annualy{" "}

@@ -5,9 +5,9 @@ import Carousel from "react-bootstrap/Carousel";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
-import articalFirst from "../../assets/images/article-first.png";
-import articalsecond from "../../assets/images/article-second.png";
-import articalThird from "../../assets/images/article-third.png";
+import articleFirst from "../../assets/images/article-first.png";
+import articleSecond from "../../assets/images/article-second.png";
+import articleThird from "../../assets/images/article-third.png";
 
 import ButtonPress from "../Button/Button";
 
@@ -15,7 +15,7 @@ function Articles() {
   const articlesData = [
     [
       {
-        imgUrl: articalFirst,
+        imgUrl: articleFirst,
         textTopic: "Tips, Constructor",
         textTime: " - March 10, 2023",
         title: "Your Dream Website with a User-Friendly Constructor",
@@ -24,7 +24,7 @@ function Articles() {
       },
 
       {
-        imgUrl: articalsecond,
+        imgUrl: articleSecond,
         textTopic: "Tips, Constructor",
         textTime: " - March 10, 2023",
         title: "How ME-Page Can Help You Build Your Business Online",
@@ -33,7 +33,7 @@ function Articles() {
       },
 
       {
-        imgUrl: articalThird,
+        imgUrl: articleThird,
         textTopic: "Tips, Constructor",
         textTime: " - March 10, 2023",
         title: "Maximizing the Potential of Online Store with ME-Page",
@@ -44,7 +44,7 @@ function Articles() {
 
     [
       {
-        imgUrl: articalFirst,
+        imgUrl: articleFirst,
         textTopic: "Tips, Constructor",
         textTime: " - March 10, 2023",
         title: "Your Dream Website with a User-Friendly Constructor",
@@ -53,7 +53,7 @@ function Articles() {
       },
 
       {
-        imgUrl: articalsecond,
+        imgUrl: articleSecond,
         textTopic: "Tips, Constructor",
         textTime: " - March 10, 2023",
         title: "How ME-Page Can Help You Build Your Business Online",
@@ -62,7 +62,7 @@ function Articles() {
       },
 
       {
-        imgUrl: articalThird,
+        imgUrl: articleThird,
         textTopic: "Tips, Constructor",
         textTime: " - March 10, 2023",
         title: "Maximizing the Potential of Online Store with ME-Page",

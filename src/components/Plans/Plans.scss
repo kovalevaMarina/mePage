@@ -1,0 +1,9 @@
+@import "../../styles/index";
+
+@media screen and (min-width: $lg) {
+  .plans {
+    background-image: url("./../../assets//images/plans-bg.svg");
+    background-position: top center;
+    background-repeat: no-repeat;
+  }
+}

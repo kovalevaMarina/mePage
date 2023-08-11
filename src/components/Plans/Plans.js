@@ -1,11 +1,13 @@
+import "./Plans.scss";
+
 import Container from "react-bootstrap/Container";
 
 import FormSelect from "../FormSelect/FormSelect";
 import Results from "../Pesults/Results";
-
-const currencies = ["GBP", "EUR", "USD"];
+import PlansCard from "./PlansCard";
 
 function Plans() {
+  const currencies = ["GBP", "EUR", "USD"];
   return (
     <section className="plans py-s">
       <Container>
@@ -14,6 +16,7 @@ function Plans() {
           Pick the Best Plan for You
         </h2>
         <FormSelect arrayOptions={currencies} currencies={true} />
+        <PlansCard />
         <Results />
       </Container>
     </section>

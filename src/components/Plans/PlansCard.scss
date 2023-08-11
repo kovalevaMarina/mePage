@@ -1,0 +1,92 @@
+@import "../../styles/index";
+
+.plans {
+  .card {
+    border: 1px solid transparent;
+    &-body {
+      border: 1px solid $grey700;
+      box-shadow: 5px 5px 0 0 $blue-shadow;
+      border-radius: 8px;
+      transition: all 0.3s;
+    }
+
+    .plans-rate {
+      padding: 5px 10px;
+      color: $blue;
+      border-radius: 4px;
+      border: 1px solid $blue;
+      box-shadow: 2px 2px 0px 0px $blue-shadow;
+    }
+  }
+
+  .table {
+    margin: 0;
+    td {
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 400;
+      font-size: $fs-base;
+      line-height: $ln-base;
+
+      img {
+        width: 18px;
+        height: 18px;
+        vertical-align: middle;
+      }
+    }
+
+    thead tr {
+      border-bottom: 1px solid transparent;
+    }
+
+    tbody {
+      padding-top: 12px;
+    }
+
+    tbody tr:not(:last-child) {
+      border-bottom: 1px solid $white-border;
+    }
+
+    tbody td {
+      vertical-align: middle;
+      padding: 15px 8px;
+    }
+  }
+  .btn-outline-primary {
+    @include btn-style;
+    width: 100%;
+    padding: 9px;
+    margin-top: $spacer-l;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: $blue;
+    border-color: $blue;
+    transition: all 0.3s;
+    &:hover {
+      @include btn-style-hover;
+      color: $white;
+    }
+  }
+}
+
+@media screen and (min-width: $lg) {
+  .plans {
+    &-card {
+      &_wrap {
+        border-radius: 8px;
+        padding: 24px;
+        margin: 48px 0;
+        border: 1px solid $grey400;
+        background-color: $white;
+        box-shadow: 5px 5px 0 0 $blue-shadow;
+      }
+    }
+
+    .card {
+      &-body {
+        box-shadow: none;
+        border-radius: 0;
+        border: 1px solid transparent;
+      }
+    }
+  }
+}

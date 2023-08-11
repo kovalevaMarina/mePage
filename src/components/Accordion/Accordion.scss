@@ -25,6 +25,7 @@
     &:focus,
     &:hover,
     &:active {
+      box-shadow: none;
       border-color: transparent;
     }
 
